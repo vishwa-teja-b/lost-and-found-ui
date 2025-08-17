@@ -1,8 +1,6 @@
 import React,{useState} from "react";
 import axios from "axios"; // FOR MAKING HTTP REQUESTS
-import {storage} from '../firebase'; // Import our firebase storage config
-import {ref, uploadBytes, getDownloadURL} from 'firebase/storage';
-import {v4 as uuidv4} from 'uuid'; // Import uuid to create unique filenames
+
 
 const ItemForm = ()=>{
     // state to hold the form data
